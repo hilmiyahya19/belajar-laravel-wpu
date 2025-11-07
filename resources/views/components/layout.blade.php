@@ -25,11 +25,14 @@
     <x-header>{{ $title }}</x-header>
 
     <main>
-        <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+        <div class="">
         {{ $slot }}
         </div>
     </main>
 
     </div>
+    
+    <!-- Tambahkan script Flowbite di sini -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </body>
 </html>
